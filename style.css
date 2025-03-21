@@ -72,3 +72,32 @@ nav a:hover {
 h1 {
     text-align: center;
 }
+
+/* added responsive design */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    nav {
+        position: relative;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+    .content {
+        margin-left: 20px;
+        padding: 10px;
+        max-width: 100%;
+    }
+    .cat img {
+        width: 100%;
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+}
